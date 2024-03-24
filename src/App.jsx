@@ -1,10 +1,10 @@
 import './App.css'
-
+import Top_header from './components/Top_header.jsx'
 function App() {
 
   return (
     <>
-      <h1>Airbnb Clone</h1>
+      <Top_header />
     </>
   )
 }
