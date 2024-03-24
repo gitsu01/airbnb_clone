@@ -1,31 +1,40 @@
 import React from "react";
-import Airbnb_logo from "../../public/favicon.ico";
+import Airbnb_logo from "../../public/assets/icons/airbnb_main.svg";
+import earth_logo from "../../public/assets/icons/earth.svg";
+import user_logo from "../../public/assets/icons/user.svg";
+import menu_logo from "../../public/assets/icons/menu.svg";
 
+import './top_header.css';
 function Top_header() {
     return (
         <>
-            <div className="top-header h-[80px] flex items-center justify-between">
-                <div className="left_elements h-[100%] flex items-center">
-                    <div className="logo flex items-center">
-                        <img className="h-8" src={Airbnb_logo} alt="Airbnb logo" />
-                        <span className="ml-3 text-2xl">airbnb</span>
+            <div className="top-header h-[80px] flex items-center ">
+                <div className="container flex items-center justify-between ml-20 mr-20">
+                    <div className="left_elements h-[100%] flex items-center">
+                        <div className="logo flex items-center">
+                            <img className="h-8" src={Airbnb_logo} alt="Airbnb logo" />
+                        </div>
                     </div>
-                </div>
 
-                <div className="center_items flex gap-4">
-                    <div className="p-2">Stays</div>
-                    <div className="p-2">Experiences</div>
-                    <div className="p-2">Online Experiences</div>
-                </div>
-
-                <div className="right_elements flex">
-                    <div>Airbnb your home</div>
-                    <div>
-                        
+                    <div className="center_items flex gap-5 ml-40">
+                        <div className="text-base p-2 center_items_stays light_color">Stays</div>
+                        <div className="text-base p-2 font-extralight light_color">Experiences</div>
+                        <div className="text-base p-2 font-extralight light_color">Online Experiences</div>
                     </div>
-                    <div>
-                        <div></div>
-                        <div></div>
+
+                    <div className="right_elements flex items-center gap-4">
+                        <div className=" text-sm airbnb_your_home">Airbnb your home</div>
+                        <div>
+                            <img src={earth_logo} alt="earth_logo" />
+                        </div>
+                        <div className="flex rounded-full border gap-3 p-2 items-center">
+                            <div>
+                                <img className="h-4 ml-[3px]" src={menu_logo} alt="menu_logo" />
+                            </div>
+                            <div>
+                                <img className="mr-[3px]" src={user_logo} alt="user_logo" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

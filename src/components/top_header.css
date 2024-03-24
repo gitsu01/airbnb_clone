@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Airbnb Cereal Bold";
+    src: url("/fonts/Airbnb_Cereal-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Airbnb Cereal Book";
+    src: url("/fonts/Airbnb_Cereal-Book.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Airbnb Cereal Medium";
+    src: url("/fonts/Airbnb_Cereal-Medium.ttf") format("truetype");
+}
+
+.center_items {
+    font-family: Airbnb Cereal Book;
+}
+
+.light_color {
+    color: #666666
+}
+
+.airbnb_your_home {
+    font-family: Airbnb Cereal Medium;
+}
