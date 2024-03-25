@@ -13,14 +13,46 @@
     src: url("/fonts/Airbnb_Cereal-Medium.ttf") format("truetype");
 }
 
+.container {
+    cursor: pointer;
+}
+
 .center_items {
     font-family: Airbnb Cereal Book;
 }
 
 .light_color {
-    color: #666666
+    color: #666666;
+    border-radius: 50px;
+    cursor: pointer;
+    /* border: 2px solid black */
+}
+
+.light_color:hover {
+    background-color: #f4f2f2;
 }
 
 .airbnb_your_home {
     font-family: Airbnb Cereal Medium;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.airbnb_your_home:hover {
+    background-color: #f4f2f2;
+}
+
+.earth_logo {
+    padding: 12px 14px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.earth_logo:hover {
+    background-color: #f4f2f2;
+}
+
+.user_info:hover {
+    box-shadow: 0px 1px 4px 0px rgba(179, 173, 173, 1);
 }
