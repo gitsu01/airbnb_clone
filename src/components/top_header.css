@@ -1,3 +1,8 @@
+:root {
+    --on-hover: #f4f2f2;
+    --text-color: #666666;
+}
+
 @font-face {
     font-family: "Airbnb Cereal Bold";
     src: url("/fonts/Airbnb_Cereal-Bold.ttf") format("truetype");
@@ -22,14 +27,14 @@
 }
 
 .light_color {
-    color: #666666;
+    color: var(--text-color);
     border-radius: 50px;
     cursor: pointer;
     /* border: 2px solid black */
 }
 
 .light_color:hover {
-    background-color: #f4f2f2;
+    background-color: var(--on-hover);
 }
 
 .airbnb_your_home {
@@ -40,7 +45,7 @@
 }
 
 .airbnb_your_home:hover {
-    background-color: #f4f2f2;
+    background-color: var(--on-hover);
 }
 
 .earth_logo {
@@ -50,7 +55,7 @@
 }
 
 .earth_logo:hover {
-    background-color: #f4f2f2;
+    background-color: var(--on-hover);
 }
 
 .user_info:hover {
