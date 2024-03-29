@@ -1,10 +1,15 @@
 import './App.css'
-import Top_header from './components/Top_header.jsx'
+import TopHeader from './components/TopHeader.jsx'
+import MenuNavbar from './components/MenuNavbar.jsx'
+import MainBox from './components/MainBox.jsx'
+
 function App() {
 
   return (
     <>
-      <Top_header />
+      <TopHeader />
+      <MenuNavbar />
+      <MainBox />
     </>
   )
 }

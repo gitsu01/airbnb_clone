@@ -4,12 +4,12 @@ import earth_logo from "/assets/icons/earth.svg";
 import user_logo from "/assets/icons/user.svg";
 import menu_logo from "/assets/icons/menu.svg";
 
-import './top_header.css';
-function Top_header() {
+import './TopHeader.css';
+function TopHeader() {
     return (
         <>
-            <div className="top-header h-[80px] flex items-center ">
-                <div className="container flex items-center justify-between ml-20 mr-20">
+            <div className="top-header h-[80px] flex items-center border-b-2">
+                <div className="container flex items-center justify-between m-auto">
                     <div className="left_elements h-[100%] flex items-center">
                         <div className="logo flex items-center">
                             <img className="h-8" src={Airbnb_logo} alt="Airbnb logo" />
@@ -42,4 +42,4 @@ function Top_header() {
     );
 }
 
-export default Top_header;
+export default TopHeader;

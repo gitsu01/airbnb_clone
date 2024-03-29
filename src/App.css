@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airbnb_Cereal';
+    src: url(/fonts/Airbnb_Cereal-Book.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Airbnb_Cereal';
+}
+
