@@ -1,15 +1,9 @@
 .menu_links {
     overflow-x: auto;
 }
-.menu_links::selection{
-    user-select: none;
-}
-.menu_links::-moz-selection{
-    user-select: none;
-}
+
 .menu_links::-webkit-scrollbar{
-    display: none;
-    behavior: smooth;
+    width: 0;
 }
 
 .navmenu_title{
